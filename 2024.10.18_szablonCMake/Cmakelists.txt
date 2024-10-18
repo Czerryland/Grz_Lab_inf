@@ -1,0 +1,5 @@
+add_executable(2024.10.18_szablonCMake)
+target_sources(2024.10.18_szablonCMake
+    PUBLIC
+        ./Main.cpp
+)
