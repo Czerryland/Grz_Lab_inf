@@ -1,0 +1,5 @@
+add_executable(25.10.2024_cpp)
+target_sources(25.10.2024_cpp
+    PUBLIC
+        ./Main.cpp
+)
