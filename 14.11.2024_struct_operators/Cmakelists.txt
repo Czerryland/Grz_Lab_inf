@@ -1,5 +1,5 @@
-add_executable(25.10.2024_struct_operators)
-target_sources(25.10.2024_struct_operators
+add_executable(06.03.2025_task)
+target_sources(06.03.2025_task
     PUBLIC
         ./Main.cpp
 )
