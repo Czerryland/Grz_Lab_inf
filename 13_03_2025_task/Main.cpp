@@ -114,3 +114,33 @@ int euklides(int l1, int l2) {
     }
     return l1;
 }
+void sprawdzDzielnik(std::vector<int> tab) {
+    std::vector<int> parzyste;
+    int ilosc = 0;
+    for (int value : tab) {
+        bool istnieje = false;
+        if (value >= 10) {
+            int tempval = value;
+            while (tempval > 0) {
+
+                int digit = tempval % 10;
+
+                if (digit % 2 == 1) {
+
+                    istnieje = true;
+
+                    break;
+
+                }
+                tempval /= 10;
+            }
+        }
+
+        if (!istnieje) {
+
+            parzyste.push_back(value);
+
+        }
+
+    }
+}
