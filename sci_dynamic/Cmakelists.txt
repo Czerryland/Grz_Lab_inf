@@ -1,0 +1,11 @@
+add_library( dummylib SHARED )
+
+target_include_directories( dummylib
+    PUBLIC
+        .
+)
+
+target_sources( dummylib
+    PUBLIC
+        ./math.cpp
+)
