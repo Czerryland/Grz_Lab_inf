@@ -1,0 +1,18 @@
+add_executable( sci_app_dll_second )
+
+target_include_directories(sci_app_dll_second
+    PUBLIC
+        .
+
+)
+
+target_sources( sci_app_dll_second
+    PUBLIC
+        ./main.cpp
+)
+
+target_link_libraries( sci_app_dll_second
+    PRIVATE
+        dummylib
+
+)
