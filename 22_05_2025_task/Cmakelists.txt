@@ -1,0 +1,5 @@
+add_executable(22_05_2025_task)
+target_sources(22_05_2025_task
+    PUBLIC
+        ./Main.cpp
+)
